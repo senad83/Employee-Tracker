@@ -1,0 +1,1 @@
+INSERT INTO department (name, id) values ('Jane', 1);
