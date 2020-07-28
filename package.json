@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/senad83/Employee-Tracker#readme",
   "dependencies": {
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "inquirer": "^6.2.1"
   }
 }
