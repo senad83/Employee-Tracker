@@ -175,6 +175,11 @@ function addEmployee() {
       name: "role_id",
       type: "input",
       message: "What role id would you like to add?"
+    },
+    {
+      name: "manager_id",
+      type: "input",
+      message: "What manager id would you like to add?"
     }])
     .then(answer => {
 
@@ -183,7 +188,8 @@ function addEmployee() {
         {
           first_name: answer.first_name,
           last_name: answer.last_name,
-          role_id: answer.role_id
+          role_id: answer.role_id,
+          manager_id: answer.manager_id
         },
 
         function (err) {
